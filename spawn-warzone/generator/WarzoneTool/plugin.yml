@@ -1,0 +1,9 @@
+name: WarzoneTool
+main: net.astropvp.warzone.WarzoneTool
+version: 1.0
+description: TEST-SERVER console tool for the AstroPvP spawn warzone rebuild (paste generated schematics, walk/light/stuck checks). Not for live.
+depend: [FastAsyncWorldEdit, WorldEdit]
+commands:
+  wz:
+    description: Warzone build/test tool (console only)
+    usage: /wz paste|count|block|light|walk|path|stuck|plate|cam ...
